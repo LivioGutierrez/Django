@@ -1,0 +1,50 @@
+0. revisar (
+    python -V➔ ver la version 
+    pip -V➔ ver la version
+    pip list➔ ver las dependencias instaladas globalmente
+    pip install django ➔ instalando django de manera global
+    )
+
+1. Etapa 1: Preparación del entorno virtual e instalación de dependencias.
+
+● Paso 1: Habilitamos un entorno virtual con Python:
+    ○ Ubica un directorio del computador para alojar los proyectos.
+    ○ Abre este directorio en la consola de comandos y ejecuta la siguiente
+    instrucción.
+
+python -m venv vdjango
+
+    ➔ python -m venv => Da la instrucción de creación de un entorno virtual, venv significa
+    Virtual Envioronment
+
+    ➔ vdjango => Es el nombre del entorno virtual
+
+Paso 1.2: En la carpeta generada vdjango, veremos un subdirectorio llamado
+Scripts.
+
+    Scripts contiene un archivo llamado activate, el cual nos servirá para activar el
+    entorno virtual que creamos. Esto lo lograremos con el comando
+
+    .\vdjango\Scripts\activate➔ no me funciona en powershell
+
+    call vdjango\Scripts\activate➔ no me funciona en powershell
+
+    source vdjango/Scripts/activate➔ funchiona en bash
+
+    deactivate➔  sale de el entorno virtual
+
+2. Etapa 2: Creación del proyecto
+
+2.1 pip list➔ ver las dependencias instaladas en el entorno
+
+2.2 pip install django
+
+3. Etapa 3: Creacion del proyecto
+django-admin startproject myFirstApp➔ crea el proyecto "myFirstApp" es el nombre del proyecto
+
+4. Etapa 4: Desplegar nuestro proyecto
+
+4.1 cd myFirstApp➔ acceder a la carpeta del proyecto
+
+4.2 ejecutar el proyecto
+python manage.py runserver 
