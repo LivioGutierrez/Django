@@ -1,3 +1,7 @@
 1. install virtualenvwrapper
 
-2. virtualenv -p python <Nombre del entorno virtual>
+2. mkvirtualenv <nombre del entorno virtual>
+
+SALIR Y ENTRAR 
+    deactivarte➔ salir del entorno virtual
+    workon➔ entrar al entorno virtual
