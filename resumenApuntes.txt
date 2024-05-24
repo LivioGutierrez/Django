@@ -22,15 +22,15 @@
     django-admin startproject myFirstApp ➔ crea el proyecto "myFirstApp" es el nombre del proyecto
 ============================================================
 
+====================CREACION DE APLICACIONES====================
+    creacion de proyecto ➔ python manage.py startapp login
+================================================================
+
 ====================CORRER EL PROYECTO====================
     cd myFirstApp ➔ acceder a la carpeta del proyecto
 
     correr le proyecto ➔ python manage.py runserver
 ==========================================================
-
-====================CREACION DE APLICACIONES====================
-    creacion de proyecto ➔ python manage.py startapp login
-================================================================
 
 ====================VINCULANDO APLICACION AL ARCHIVO SETTING.PY====================
     INSTALLED_APPS = [
@@ -41,5 +41,5 @@
 ====================CREAR E INSTALAR UN TXT CON LAS DEPENDECIAS====================
     crear un txt con las dependencias del proyecto ➔ pip freeze > requirements.txt
 
-    instalar las dependencias del proyecto pip install -r requirements.txt
+    instalar las dependencias del proyecto ➔ pip install -r requirements.txt
 ===================================================================================

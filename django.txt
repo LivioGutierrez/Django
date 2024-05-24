@@ -57,3 +57,7 @@ Creacion de aplicaciones
     '<Nombre de la aplicacion>',
 
     ]
+
+se crean funciones en la aplicacion en la parte de views.py
+luego se modifica el archivo urls.py donde importas las viws de la app(mas informacion en MySite2/MySite2/urls.py)
+IMPORTANTE: la carpeta tiene que si o si llamarse templates
