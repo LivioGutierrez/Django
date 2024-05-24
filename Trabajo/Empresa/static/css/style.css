@@ -2,4 +2,18 @@ body{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: rgb(9, 75, 3);
+    color: white;
+}
+
+.bg-nav{
+    background-color: rgb(99, 184, 91);
+}
+
+.nav-link, .navbar-brand{
+    color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(9, 75, 3);
 }
