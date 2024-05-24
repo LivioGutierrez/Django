@@ -17,3 +17,7 @@ body{
 .navbar-nav .nav-link.active{
     color: rgb(9, 75, 3);
 }
+
+.ideals{
+    background-color: rgb(12, 97, 4);
+}
