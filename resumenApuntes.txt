@@ -43,3 +43,15 @@
 
     instalar las dependencias del proyecto ➔ pip install -r requirements.txt
 ===================================================================================
+
+====================PASOS PARA TRABAJAR====================
+    1   crear entorno virtual
+    2   crear proyecto
+    3   crear app si es requerido
+    4   si se agrega una app hay que ir a la carpet del proyecto que se llama igual al proyecto y en setting.py añadir la app
+    5   crear la carpeta templates
+    6   agregar a la app los .html en la carpeta templates
+    7   crear la carpeta static, donde iran el css, js e imagenes
+    8   ir a viws.py en la carpeta de la app y hacer las funciones para llamar a los .html
+    9   ir a la carpeta del proyecto y en urls.py añadir las rutas
+    10  correr el programa
